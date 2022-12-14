@@ -1,5 +1,5 @@
 # ---------------------------------------------------------------------------
-# USB EPROM/Flash Programmer
+# VGA Generator/Splitter
 #
 # Copyright (2022) Robson Martins
 #
@@ -120,3 +120,48 @@ dkms.conf
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 build/*
 doxy.log
+
+# Kicad
+*.sch-bak
+*/vgagenerator-backups/*
+
+# Eagle project file
+# It contains a serial number and references to the file structure
+# on your computer.
+# comment the following line if you want to have your project file included.
+eagle.epf
+
+# CAM files
+*.$$$
+*.cmp
+*.ly2
+*.l15
+*.sol
+*.plc
+*.stc
+*.sts
+*.crc
+*.crs
+
+*.dri
+*.drl
+*.gpi
+*.pls
+*.ger
+*.xln
+
+*.drd
+*.drd.*
+
+*.s#*
+*.b#*
+
+*.info
+
+*.eps
+
+# file locks introduced since 7.x
+*.lck
+
+# LibreOffice
+*.~lock.*
